@@ -13,6 +13,7 @@
 		4D22C6AA23B7043D00DCA7D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C6A823B7043D00DCA7D6 /* Main.storyboard */; };
 		4D22C6AC23B7043F00DCA7D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C6AB23B7043F00DCA7D6 /* Assets.xcassets */; };
 		4D22C6AF23B7043F00DCA7D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22C6AD23B7043F00DCA7D6 /* LaunchScreen.storyboard */; };
+		4D22C6B823B7077E00DCA7D6 /* FoodRecallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22C6B723B7077E00DCA7D6 /* FoodRecallModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D22C6AB23B7043F00DCA7D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D22C6AE23B7043F00DCA7D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D22C6B023B7043F00DCA7D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D22C6B723B7077E00DCA7D6 /* FoodRecallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecallModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				4D22C6A223B7043D00DCA7D6 /* AppDelegate.swift */,
 				4D22C6A423B7043D00DCA7D6 /* SceneDelegate.swift */,
 				4D22C6A623B7043D00DCA7D6 /* ViewController.swift */,
+				4D22C6B623B7073700DCA7D6 /* Models */,
 				4D22C6A823B7043D00DCA7D6 /* Main.storyboard */,
 				4D22C6AB23B7043F00DCA7D6 /* Assets.xcassets */,
 				4D22C6AD23B7043F00DCA7D6 /* LaunchScreen.storyboard */,
 				4D22C6B023B7043F00DCA7D6 /* Info.plist */,
 			);
 			path = FoodRecalls;
+			sourceTree = "<group>";
+		};
+		4D22C6B623B7073700DCA7D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D22C6B723B7077E00DCA7D6 /* FoodRecallModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D22C6B823B7077E00DCA7D6 /* FoodRecallModel.swift in Sources */,
 				4D22C6A723B7043D00DCA7D6 /* ViewController.swift in Sources */,
 				4D22C6A323B7043D00DCA7D6 /* AppDelegate.swift in Sources */,
 				4D22C6A523B7043D00DCA7D6 /* SceneDelegate.swift in Sources */,
